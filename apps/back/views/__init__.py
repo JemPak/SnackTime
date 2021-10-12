@@ -1,0 +1,5 @@
+from .productoView import ProductoListCreateView, ProductoRetrieveUpdateDestroy
+from .clienteView import ClienteListCreateView, ClienteRetrieveUpdateDestroy
+from .maquinaView import MaquinaListCreateView, MaquinaRetrieveUpdateDestroy
+from .ordenView import OrdenListCreateView, OrdenRetrieveUpdateDestroy
+from .contactoView import ContactoListCreateView, ContactoRetrieveUpdateDestroy
