@@ -6,3 +6,6 @@ class Producto (models.Model):
     cantidad = models.IntegerField(default=0)
     precio = models.FloatField(null=False, blank=False)
     descripcion = models.TextField(max_length=2000, blank=True)
+
+    def __str__(self):
+        return self.nombre

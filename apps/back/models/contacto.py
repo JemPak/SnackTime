@@ -15,3 +15,6 @@ class Contacto (models.Model):
     tel = models.IntegerField(verbose_name="telefono",null=False, blank=False)
     asesoria=models.CharField(max_length=50, choices=tipos_asesorias, null=False, blank=False, verbose_name="asesoria")
     comentario= models.TextField(max_length=600, null=True, blank=True)
+
+    def __str__(self):
+        return self.nombre

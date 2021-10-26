@@ -6,3 +6,6 @@ class Orden(models.Model):
     fecha = models.DateTimeField(auto_now_add=True)
     id_productos = models.ManyToManyField(Producto)
     comentario = models.TextField(max_length=2000, blank=True, null=True)
+
+    def __str__(self):
+        return self.id_orden

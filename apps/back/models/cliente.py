@@ -9,3 +9,6 @@ class Cliente (models.Model):
     ciudad = models.CharField(verbose_name="ciudad",max_length=80, blank=False)
     email = models.EmailField(null=False, blank=False)
     tel = models.IntegerField(verbose_name="telefono",null=False, blank=False)
+
+    def __str__(self):
+        return self.nombre
