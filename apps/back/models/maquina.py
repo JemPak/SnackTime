@@ -10,4 +10,4 @@ class Maquina (models.Model):
     is_activate=models.BooleanField(verbose_name="maquina activa", default=False)
 
     def __str__(self):
-        return self.id_propietario.id_cliente
+        return self.id_propietario
