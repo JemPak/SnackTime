@@ -51,3 +51,7 @@ Thumbs.db
 
 # no subir ambiente 
 /env/
+.env
+.env/
+env/
+env
