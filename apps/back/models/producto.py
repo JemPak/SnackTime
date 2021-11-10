@@ -8,4 +8,4 @@ class Producto (models.Model):
     descripcion = models.TextField(max_length=2000, blank=True)
 
     def __str__(self):
-        return self.nombre
+        return self.nombre       

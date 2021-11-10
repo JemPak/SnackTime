@@ -6,3 +6,5 @@ class MaquinaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Maquina
         fields = ['id_maquina','id_propietario','id_ordenes_maquina','direc_maquina','is_activate']
+    
+    
